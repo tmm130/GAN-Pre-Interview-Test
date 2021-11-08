@@ -1,3 +1,4 @@
+@question1
 Feature: Registration Error Validation
 
 Scenario: Validate 'This field is required' message appears for Date of Birth field when left blank during registration

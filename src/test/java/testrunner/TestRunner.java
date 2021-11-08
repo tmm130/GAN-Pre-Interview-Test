@@ -14,6 +14,7 @@ import io.cucumber.junit.CucumberOptions;
         		"html:target/cucumber-reports/CucumberTestReport.html",
                 "json:target/cucumber-reports/CucumberTestReport.json",
                 "junit:target/cucumber-reports/CucumberTestReport.xml"
-        }
+        },
+        tags = "@question1"
 )
 public class TestRunner { }
