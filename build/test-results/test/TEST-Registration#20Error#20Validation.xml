@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Registration Error Validation" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-07T21:35:31" hostname="LAPTOP-N07C24J6" time="46.834">
+  <properties/>
+  <testcase name="Validate 'This field is required' message appears for Date of Birth field when left blank during registration" classname="Registration Error Validation" time="46.834"/>
+  <system-out><![CDATA[
+Scenario: Validate 'This field is required' message appears for Date of Birth field when left blank during registration ?[90m# src/test/resources/features/RegistrationErrorValidation.feature:3?[0m
+  ?[32mGiven ?[0m?[32mI am on Home Page?[0m                                                                                               ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_am_on_home_page()?[0m
+  ?[32mAnd ?[0m?[32mI navigate to Registration Page?[0m                                                                                   ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_navigate_to_registration_page()?[0m
+  ?[32mWhen ?[0m?[32mI am on Registration Page?[0m                                                                                        ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_am_on_registration_page()?[0m
+  ?[32mAnd ?[0m?[32mI select ?[0m?[32m?[1m'Mr'?[0m?[32m in the title field?[0m                                                                                  ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_select_in_the_title_field(java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32mI enter ?[0m?[32m?[1m'Tom'?[0m?[32m in the firstName field?[0m                                                                              ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_enter_in_the_first_name_field(java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32mI enter ?[0m?[32m?[1m'Maringo'?[0m?[32m in the surname field?[0m                                                                            ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_enter_in_the_surname_field(java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32mI click on termsAndConditions checkbox?[0m                                                                            ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_click_on_terms_and_conditions_checkbox()?[0m
+  ?[32mThen ?[0m?[32mI click on Join Now from submission?[0m                                                                              ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_click_on_join_now_from_submission()?[0m
+  ?[32mAnd ?[0m?[32m?[0m?[32m?[1m'This field is required'?[0m?[32m appears under Date of Birth field?[0m                                                        ?[90m# stepdefinitions.RegistrationErrorValidationSteps.appears_under_date_of_birth_field(java.lang.String)?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}) on port 1745
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 07, 2021 4:35:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

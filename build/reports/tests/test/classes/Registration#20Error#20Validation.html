@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Registration Error Validation</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Registration Error Validation</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Registration Error Validation</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">46.834s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Validate 'This field is required' message appears for Date of Birth field when left blank during registration</td>
+<td class="success">46.834s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+Scenario: Validate 'This field is required' message appears for Date of Birth field when left blank during registration ?[90m# src/test/resources/features/RegistrationErrorValidation.feature:3?[0m
+  ?[32mGiven ?[0m?[32mI am on Home Page?[0m                                                                                               ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_am_on_home_page()?[0m
+  ?[32mAnd ?[0m?[32mI navigate to Registration Page?[0m                                                                                   ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_navigate_to_registration_page()?[0m
+  ?[32mWhen ?[0m?[32mI am on Registration Page?[0m                                                                                        ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_am_on_registration_page()?[0m
+  ?[32mAnd ?[0m?[32mI select ?[0m?[32m?[1m'Mr'?[0m?[32m in the title field?[0m                                                                                  ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_select_in_the_title_field(java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32mI enter ?[0m?[32m?[1m'Tom'?[0m?[32m in the firstName field?[0m                                                                              ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_enter_in_the_first_name_field(java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32mI enter ?[0m?[32m?[1m'Maringo'?[0m?[32m in the surname field?[0m                                                                            ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_enter_in_the_surname_field(java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32mI click on termsAndConditions checkbox?[0m                                                                            ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_click_on_terms_and_conditions_checkbox()?[0m
+  ?[32mThen ?[0m?[32mI click on Join Now from submission?[0m                                                                              ?[90m# stepdefinitions.RegistrationErrorValidationSteps.i_click_on_join_now_from_submission()?[0m
+  ?[32mAnd ?[0m?[32m?[0m?[32m?[1m'This field is required'?[0m?[32m appears under Date of Birth field?[0m                                                        ?[90m# stepdefinitions.RegistrationErrorValidationSteps.appears_under_date_of_birth_field(java.lang.String)?[0m
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Starting ChromeDriver 95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}) on port 1745
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 07, 2021 4:35:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.2</a> at Nov 7, 2021, 4:36:18 PM</p>
+</div>
+</div>
+</body>
+</html>
